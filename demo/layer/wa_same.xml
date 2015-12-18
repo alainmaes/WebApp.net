@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<title set="waNew">Replaced</title>
+
+	<part>
+		<destination mode="replace" zone="waNew" />
+		<data><![CDATA[
+			<div class="iBlock">
+				<h1>New content</h1>
+				<p>This is a demonstration application showing WebApp.Net capabilities. Use this sample webapp to build your own iPhone/iPod Touch web applications.</p>
+			</div>
+		]]></data>
+	</part>
+</root>
+

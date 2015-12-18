@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<title set="waNew">Dynamic layer</title>
+
+	<part>
+		<destination mode="replace" zone="waNew" create="true" />
+		<data><![CDATA[
+			<div class="iBlock">
+				<h1>Demonstration</h1>
+				<p>This is a demonstration application showing WebApp.Net capabilities. Use this sample webapp to build your own iPhone/iPod Touch web applications.</p>
+				<p id="add-something"></p>
+			</div>
+		]]></data>
+	</part>
+	<part>
+		<destination mode="replace" zone="add-something" />
+		<data><![CDATA[
+			Text added from the second part of the asynchronous response with a nice image which will be loaded only if viewable!
+			<a href="layer/wa_same.xml" class="iPush iBWarn" style="width:100%" rev="async">Replace content</a>
+		]]></data>
+	</part>
+</root>
+
